@@ -4,7 +4,10 @@ void infoDraw() {
     system("cls");
     printf("\n\n");
     printf("                  [ 게임규칙 ]\n\n");
-    printf("                              \n\n"); //괄호 안 게임규칙 내용 추가
+    printf("      여자친구 몰래 다른 여자의 손을 잡자!\n\n"); //괄호 안 게임규칙 내용 추가
+    printf("      여자친구에게 들키지 않고 게이지를 끝까지 채우자\n\n"); 
+    printf("      스페이스바 한번 클릭: 손 잡기 \n\n"); 
+    printf("      스페이스바 한번 더 클릭: 손 떼기 \n\n"); 
     printf("      스페이스바를 누르면 초기화면으로 이동합니다.");
 
     while (1) {
@@ -13,6 +16,8 @@ void infoDraw() {
         }
     }
 }
+
+
 int keyControl() {
     char temp = getch();
 
